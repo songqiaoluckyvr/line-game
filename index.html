@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Line - Game Jam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <button id="pauseButton" class="pause-button">PAUSE</button>
+            <div class="score-display">
+                <div class="score-label">SCORE</div>
+                <div id="score" class="score-value">0</div>
+            </div>
+        </div>
+        
+        <div id="gameCanvas" class="game-canvas">
+            <div id="player" class="player"></div>
+        </div>
+        
+        <div class="game-controls">
+            <div class="swipe-instruction">SWIPE HERE TO MOVE THE DOT</div>
+            <div class="swipe-arrows"><<< >>></div>
+        </div>
+    </div>
+    
+    <div id="gameOverScreen" class="game-over-screen hidden">
+        <div class="game-over-content">
+            <h2>Game Over</h2>
+            <p>Your score: <span id="finalScore">0</span></p>
+            <button id="restartButton">Play Again</button>
+        </div>
+    </div>
+    
+    <div id="pauseScreen" class="pause-screen hidden">
+        <div class="pause-content">
+            <h2>Game Paused</h2>
+            <button id="resumeButton">Resume</button>
+            <button id="restartFromPauseButton">Restart</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html> 
