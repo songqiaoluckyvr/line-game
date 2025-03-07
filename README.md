@@ -2,7 +2,7 @@
 
 A web-based game inspired by "The Line" by Ketchapp, featuring a blue dot navigating a path while avoiding obstacles. This game was created as part of an AI Game Jam.
 
-![Game Screenshot](screenshot.png)
+![Game Screenshot](linegame.png)
 
 ## Game Description
 
